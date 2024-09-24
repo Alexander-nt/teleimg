@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Три картинки вдоль страницы</title>
+    <style>
+        .vertical-images {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px; /* Отступ между картинками */
+        }
+        .vertical-images img {
+            width: 300px; /* Ширина картинки */
+            height: auto; /* Автоматическая высота для сохранения пропорций */
+        }
+    </style>
 </head>
 <body>
-    <img src="https://dmsh2-nt.edusite.ru/images/p89_2024-07-26_bp_02.jpg" alt="20202"><br/>
-    <img src="https://dmsh2-nt.edusite.ru/images/p89_2024-05-06_ddmsh2_01.jpg" alt="845">
+    <div class="vertical-images">
+        <img src="https://dmsh2-nt.edusite.ru/images/p89_2024-07-26_bp_02.jpg" alt="Картинка 1">
+        <img src="https://dmsh2-nt.edusite.ru/images/p89_2024-05-06_ddmsh2_01.jpg" alt="Картинка 2">
+        <img src="https://dmsh2-nt.edusite.ru/images/p89_2024-05-06_ddmsh2_01.jpg" alt="Картинка 3">
+    </div>
 </body>
 </html>
