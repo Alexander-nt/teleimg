@@ -39,6 +39,18 @@
           font-family: sans-serif;
           margin: 1px;
         }
+        @media (max-width: 768px) {
+            .image-text-block {
+            flex-direction: column; /* На мобильных устройствах картинка и текст будут друг под другом */
+            align-items: flex-start; /* Текст будет выровнен по левому краю */
+            }
+
+            .image-text-block img {
+            width: 100%; /* Картинки будут занимать 100% ширины контейнера */
+            max-width: 400px; /* Ограничение максимальной ширины */
+            }
+        }
+
     </style>
 </head>
 <h2>Преподаватели фортепианного отделения</h2>
