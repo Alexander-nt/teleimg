@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Картинки с текстом справа</title>
+    <style>
+        /* Основной контейнер для каждой картинки с текстом */
+        .container {
+            display: flex;
+            flex-direction: column; /* Размещаем каждый блок вертикально */
+            gap: 20px; /* Отступы между блоками с картинками */
+            padding: 20px;
+        }
+
+        /* Контейнер для картинки и текста */
+        .image-text-block {
+            display: flex;
+            align-items: center; /* Выровнять текст и картинку по центру по вертикали */
+            gap: 20px; /* Отступ между картинкой и текстом */
+        }
+
+        /* Картинки */
+        .image-text-block img {
+            width: 200px; /* Фиксированная ширина для картинок */
+            height: auto; /* Автоматическая высота */
+        }
+
+        /* Секция для текста */
+        .text-content {
+            max-width: 500px; /* Максимальная ширина текста */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Блок 1: картинка и текст -->
+        <div class="image-text-block">
+            <img src="images/image1.jpg" alt="Картинка 1">
+            <div class="text-content">
+                <h2>Заголовок 1</h2>
+                <p>Описание для первой картинки. Здесь можно разместить текст, который описывает изображение.</p>
+            </div>
+        </div>
+
+        <!-- Блок 2: картинка и текст -->
+        <div class="image-text-block">
+            <img src="images/image2.jpg" alt="Картинка 2">
+            <div class="text-content">
+                <h2>Заголовок 2</h2>
+                <p>Описание для второй картинки. Текст можно сделать индивидуальным для каждого изображения.</p>
+            </div>
+        </div>
+
+        <!-- Блок 3: картинка и текст -->
+        <div class="image-text-block">
+            <img src="images/image3.jpg" alt="Картинка 3">
+            <div class="text-content">
+                <h2>Заголовок 3</h2>
+                <p>Описание для третьей картинки. Здесь можно описать особенности изображения или другой контент.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
