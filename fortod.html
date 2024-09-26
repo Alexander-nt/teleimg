@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточки людей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* background-color: #bb6b6b; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* height: 100vh; */
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #333;
+        }
+
+        .card-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        /* .card:hover {
+            transform: scale(1.05);
+        } */
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 0%;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 15px 0;
+            font-size: 1.2rem;
+        }
+
+        .card p {
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Преподаватели фортепианного отделения</h1>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://dmsh2-nt.edusite.ru/img/p31_yuferovaelenavaler-evna.jpg" alt="Картинка 1">
+                <h3>Юферова Елена Валерьевна</h3>
+                <h4>Заведующий отделением</h4>
+                <p> <b>Должность:</b> преподаватель<br/>
+                    <b>Образование:</b> высшее, бакалавриат, ФГАОУ ВО «Российский государственный профессионально-педагогический университет»<br/>
+                    <b>Квалификационная категория:</b> первая<br/>
+                    <b>Преподаваемые дисциплины:</b> фортепиано
+                </p><br/>
+        </div>
+        <div class="card">
+            <img src="https://dmsh2-nt.edusite.ru/img/p31_ageevayelinaivanovna.jpg" alt="Картинка 2">
+                <h3>Агеева Элина Ивановна</h3>               
+                <p> <b>Должность:</b> преподаватель<br/>
+                    <b>Образование:</b> среднее профессиональное, «Нижнетагильское областное музыкальное училище»<br/>
+                    <b>Квалификационная категория:</b> первая<br/>
+                    <b>Преподаваемые дисциплины:</b> фортепиано<br/>
+                </p><br/>
+        </div>
+        <div class="card">
+            <img src="person3.jpg" alt="Person 3">
+            <h3>Алексей Сидоров</h3>
+            <p>Маркетолог. Занимается стратегическим планированием и анализом рынка.</p>
+        </div>
+    </div>
+</body>
+</html>
