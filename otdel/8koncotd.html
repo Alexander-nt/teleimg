@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333333;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            /* height: 100vh; */
+        }
+
+        .card-name {
+            margin-bottom: 20px;
+            font-size: 20px;
+            color: #ffffff;
+        }
+
+        .card-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        /* .card:hover {
+            transform: scale(1.05);
+        } */
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 15px 0;
+            font-size: 1.2rem;
+        }
+
+        .card p {
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="card-name">Преподаватели отделения синтезатор</h3>
+    <div class="card-container">
+        <div class="card">
+            <img src="https://github.com/Alexander-nt/teleimg/blob/main/%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/%D0%BE%D1%82%D0%B1%D0%BE%D1%80/IMG_3208.JPG?raw=true" alt="Person 1">
+            <h3>Галкина Ольга Александровна</h3>
+            <p><b>Должность:</b> концертмейстер<br/>
+                <b>Образование:</b> среднее профессиональное, «Свердловское педагогическое училище № 2», 1987г.<br/>
+                <b>Квалификационная категория:</b> первая<br/>
+            </p>
+        </div>
+        <div class="card">
+            <img src="https://github.com/Alexander-nt/teleimg/blob/main/%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/%D0%BE%D1%82%D0%B1%D0%BE%D1%80/IMG_3151.JPG?raw=true" alt="Person 6">
+            <h3>Евдокимова Евгения Юрьевна</h3>
+            <p><b>Должность:</b> концертмейстер<br/>
+                <b>Образование:</b> высшее, ФГОУ ВПО «Уральская государственная консерватория (академия) им. М.П. Мусорского», 2011г.<br/>
+                <b>Квалификационная категория:</b> высшая<br/>
+            </p>
+        </div>
+        <div class="card">
+            <img src="https://github.com/Alexander-nt/teleimg/blob/main/%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/%D0%BE%D1%82%D0%B1%D0%BE%D1%80/IMG_3306.JPG?raw=true" alt="Person 7">
+            <h3>Евдокимова Людмила Евгеньевна</h3>
+            <p><b>Должность:</b> концертмейстер<br/>
+                <b>Образование:</b> среднее профессиональное, «Нижнетагильское областное музыкальное училище», 1983г.<br/>
+                <b>Квалификационная категория:</b> первая<br/>
+            </p>
+        </div>
+        <div class="card">
+            <img src="https://github.com/Alexander-nt/teleimg/blob/main/%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/%D0%BE%D1%82%D0%B1%D0%BE%D1%80/IMG_3172.JPG?raw=true" alt="Person 8">
+            <h3>Ершова Татьяна Александровна</h3>
+            <p><b>Должность:</b> концертмейстер<br/>
+                <b>Образование:</b> среднее профессиональное, ГБОУ СПО СО «Нижнетагильский колледж искусств», 2014г.<br/>
+                <b>Квалификационная категория:</b> нет<br/>
+            </p>
+        </div>
+        <div class="card">
+            <img src="https://github.com/Alexander-nt/teleimg/blob/main/%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/%D0%BE%D1%82%D0%B1%D0%BE%D1%80/IMG_3237.JPG?raw=true" alt="Person 2">
+            <h3>Колмогорова Вероника Степановна</h3>
+            <p><b>Должность:</b> концертмейстер<br/>
+                <b>Образование:</b> высшее, «Нижнетагильский государственный педагогический институт», 2003г.<br/>
+                <b>Квалификационная категория:</b> высшая<br/>
+            </p>
+        </div>
+        <div class="card">
+            <img src="https://github.com/Alexander-nt/teleimg/blob/main/%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/%D0%BE%D1%82%D0%B1%D0%BE%D1%80/IMG_3293.JPG?raw=true" alt="Person 11">
+            <h3>Миниахметова Елена Михайловна</h3>
+            <p><b>Должность:</b> преподаватель<br/>
+                <b>Образование:</b> среднее профессиональное, «Нижнетагильское областное музыкальное училище», 1997г.<br/>
+                <b>Квалификационная категория:</b> первая<br/>
+            </p>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://github.com/Alexander-nt/teleimg/blob/main/%D0%9C%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D1%88%D0%BA%D0%BE%D0%BB%D0%B0/%D0%BE%D1%82%D0%B1%D0%BE%D1%80/IMG_3311.JPG?raw=true" alt="Person 1">
+                <h3>Юферова Елена Валерьевна</h3>
+                <p><b>Должность:</b> преподаватель<br/>
+                    <b>Образование:</b> высшее, ФГАОУ ВО «Российский государственный профессионально-педагогический университет», 2016г<br/>
+                    <b>Квалификационная категория:</b> высшая<br/>
+                </p>
+            </div>
+        
+    </div>
+</body>
+</html>
